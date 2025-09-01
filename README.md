@@ -1,6 +1,6 @@
-# 🛰️ TS-CPC: Geometry-Consistent Self-Supervised Trajectory Similarity via Contrastive Predictive Coding
+# 🛰️ Geometry-Consistent Representation Learning for Trajectory Similarity via Contrastive Predictive Coding: Method and Benchmark
 
-This repository contains the official implementation of **TS-CPC**, a self-supervised trajectory similarity measurement framework based on Contrastive Predictive Coding (CPC). TS-CPC is designed to handle complex trajectory datasets efficiently while delivering robust and accurate similarity measurements.
+This repository contains the official implementation of **TS-CPC**, a geometry-consistent self-supervised trajectory similarity measurement framework based on Contrastive Predictive Coding (CPC). TS-CPC is designed to handle complex trajectory datasets efficiently while delivering robust and accurate similarity measurements.
 
 ---
 
@@ -9,12 +9,15 @@ This repository contains the official implementation of **TS-CPC**, a self-super
 - **Trajectory Detour Point Offset (TDPO):** Improves robustness against real-world noise and drift.  
 - **SFEM (Shallow Feature Extraction Module):** Extracts essential motion dynamics (speed, acceleration, orientation, angular velocity, curvature, etc.) to enrich trajectory representation.  
 - **Enhanced CPC module:** Incorporates a principled positive–negative sampling strategy to strengthen InfoNCE discrimination and convergence.  
+- **Trajectory Geometry-Consistency Benchmark (TGCB):** Provides an objective benchmark to evaluate augmentation fidelity through global path shape, local spatial deviations, directional consistency, and visual inspection.  
+
 
 ---
 
 ## 📘 Journal Extensions (Remote Sensing, 2025)
 
-Compared with our **ICIC 2025 conference paper**, the journal version achieves **substantial extensions and systematic improvements** in theoretical depth, methodological design, experimental analysis, and reproducibility:
+Compared with our ICIC 2025 conference paper *“TS-CPC: A Self-Supervised Framework for Trajectory Similarity with Contrastive Predictive Coding and Enhanced Augmentation”*, the journal version achieves **substantial extensions and systematic improvements** in theoretical depth, methodological design, experimental analysis, and reproducibility:
+
 
 1. **Expanded literature review:** Covers contrastive learning, graph neural networks, and self-supervised trajectory learning.  
 2. **Clearer methodology formulation:** Standardized definitions, notations, and evaluation metrics for interpretability.  
@@ -37,10 +40,12 @@ Compared with our **ICIC 2025 conference paper**, the journal version achieves *
 - **Grab-Posisi:** High retrieval performance across varying down-sampling and distortion rates.  
 - **GeoLife:** Significant improvements in trajectory similarity measurement accuracy.  
 
-### Performance Highlights
-- **Representation quality:** High-quality spatiotemporal embeddings for accurate comparisons.  
-- **Robustness:** Maintains performance under noise, drift, and perturbations.  
-- **Efficiency:** Achieves reduced training and inference time compared with competing methods.  
+
+### 🚀 Performance Highlights
+- **Representation quality:** Generates high-fidelity spatiotemporal embeddings that preserve both global trajectory shape and fine-grained local dynamics, enabling accurate similarity comparisons across diverse datasets.  
+- **Robustness:** Demonstrates strong resilience against common trajectory challenges, including sparse sampling, GPS drift, and noise-induced perturbations, while maintaining stable performance across different evaluation settings.  
+- **Efficiency:** Achieves significant computational advantages, with faster training and inference, reduced FLOPs and parameter counts, and up to 70% shorter training time compared with competing methods.    
+
 
 ---
 
