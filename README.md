@@ -14,7 +14,7 @@ This repository contains the official implementation of **TS-CPC**, a geometry-c
 
 ---
 
-## 📘 Journal Extensions (Remote Sensing, 2025)
+## 📘 Journal Extensions
 
 Compared with our ICIC 2025 conference paper *“TS-CPC: A Self-Supervised Framework for Trajectory Similarity with Contrastive Predictive Coding and Enhanced Augmentation”*, the journal version achieves **substantial extensions and systematic improvements** in theoretical depth, methodological design, experimental analysis, and reproducibility:
 
